@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services — Wondering Ways Therapy Co.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&family=Comfortaa:wght@300;400;600;700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: "#7C9A84",
+                    secondary: "#E29578",
+                    "background-light": "#FDFBF7",
+                    "background-dark": "#1F2937",
+                    "surface-light": "#FFFFFF",
+                    "surface-dark": "#374151",
+                    "text-light": "#4A4A4A",
+                    "text-dark": "#F3F4F6",
+                },
+                fontFamily: {
+                    display: ["Sniglet", "serif"],
+                    body: ["Nunito Sans", "sans-serif"],
+                    hand: ["Comfortaa", "cursive"],
+                },
+                borderRadius: {
+                    DEFAULT: "1rem",
+                    'xl': '1.5rem',
+                    '2xl': '2rem',
+                    'blob': '60% 40% 30% 70% / 60% 30% 70% 40%',
+                    'blob-2': '30% 70% 70% 30% / 30% 30% 70% 70%',
+                    'blob-card': '2rem 1.5rem 2.5rem 1rem',
+                },
+            },
+        },
+    };
+</script>
+<style type="text/tailwindcss">
+    .blob-bg {
+        border-radius: 44% 56% 49% 51% / 63% 38% 62% 37%;
+    }
+    .blob-card-shape {
+        border-radius: 20px 30px 25px 15px;
+    }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body transition-colors duration-300">
+
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-primary/20 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-24">
+<div class="flex-shrink-0 flex items-center gap-3">
+<a href="index.html" class="flex items-center gap-3">
+<div class="relative w-10 h-10 flex items-center justify-center bg-primary/20 rounded-full blob-bg">
+<span class="material-symbols-outlined text-primary text-2xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-gray-800 dark:text-white tracking-wide">
+    Wondering Ways <span class="text-primary block text-sm font-hand -mt-1">Therapy Co.</span>
+</span>
+</a>
+</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="about.html">
+    About Us
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-primary font-bold transition relative group" href="services.html">
+    Services
+    <span class="absolute -bottom-1 left-0 w-full h-0.5 bg-secondary rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="resources.html">
+    Resources
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+    <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="camps.html">
+        Camps
+        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+    </a>
+<a class="bg-primary hover:bg-primary/90 text-white px-7 py-3 rounded-[2rem_1rem_2rem_1rem] font-bold shadow-lg shadow-primary/20 transition transform hover:-translate-y-0.5 flex items-center gap-2" href="portal.html">
+    Client Portal
+    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="md:hidden flex items-center">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary focus:outline-none">
+<span class="material-icons-round text-3xl">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="relative overflow-hidden pt-16 pb-20 lg:pt-24 lg:pb-28">
+<div class="absolute top-0 right-0 w-[700px] h-[700px] bg-primary/10 blob-bg -translate-y-1/2 translate-x-1/3 blur-3xl -z-10"></div>
+<div class="absolute bottom-0 left-0 w-[500px] h-[500px] bg-secondary/10 blob-bg translate-y-1/3 -translate-x-1/4 blur-3xl -z-10"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-white/10 shadow-sm border border-secondary/20 text-secondary font-bold text-sm tracking-wide uppercase mb-6">
+<span class="material-icons-round text-base">star</span>
+What We Offer
+</div>
+<h1 class="font-display text-5xl lg:text-6xl font-normal leading-tight text-gray-800 dark:text-white mb-6">
+    Areas of<br/>
+    <span class="text-primary relative inline-block mt-2">
+        Focus
+        <svg class="absolute w-full h-4 -bottom-2 left-0 text-secondary opacity-60" fill="none" viewBox="0 0 200 9" xmlns="http://www.w3.org/2000/svg"><path d="M2.00025 6.99997C25.7509 2.66663 83.0858 -2.47953 198.001 3.49997" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path></svg>
+    </span>
+</h1>
+<p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto font-body mt-6">
+    Every child's developmental journey is unique. Our services are tailored to meet your child exactly where they are — through play, relationship, and a deep respect for their individual differences.
+</p>
+</div>
+</section>
+
+<!-- HOW WE WORK BANNER -->
+<section class="py-12 bg-primary/5 dark:bg-primary/10">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+<div class="flex flex-col items-center gap-3 p-6">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">search</span>
+</div>
+<h3 class="font-display text-lg dark:text-white">Comprehensive Evaluation</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">We start by understanding your child's full developmental profile before any treatment begins.</p>
+</div>
+<div class="flex flex-col items-center gap-3 p-6">
+<div class="w-12 h-12 bg-secondary/20 rounded-full flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">toys</span>
+</div>
+<h3 class="font-display text-lg dark:text-white">Play-Based Sessions</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Individual therapy sessions are child-led, relationship-centered, and grounded in the DIR/Floortime framework.</p>
+</div>
+<div class="flex flex-col items-center gap-3 p-6">
+<div class="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-2xl">groups</span>
+</div>
+<h3 class="font-display text-lg dark:text-white">Family Consultation</h3>
+<p class="text-sm text-gray-500 dark:text-gray-400">Regular parent coaching and caregiver guidance so growth extends well beyond the therapy room.</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SERVICES DETAIL -->
+<section class="py-24 bg-background-light dark:bg-background-dark">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+
+<!-- Social Emotional Growth -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-blue-100 dark:bg-blue-900/40 rounded-[3rem_2rem_3rem_2rem] flex items-center justify-center text-blue-500 dark:text-blue-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">sentiment_satisfied</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-blue-400 font-hand font-bold text-sm uppercase tracking-widest">Social & Emotional</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Social Emotional Growth</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Nurturing warm engagement and co-regulation so children build the emotional foundations for connection, communication, and joyful relationships. Using the DIR/Floortime framework, we prioritize helping children build the capacity to connect, engage, and relate — skills that underpin all other development.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Building shared attention and engagement</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Co-regulation strategies for caregivers and children</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Navigating transitions and unexpected changes</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Supporting peer interaction and reciprocal play</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Sensory Processing -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-purple-100 dark:bg-purple-900/40 rounded-[2rem_3rem_2rem_3rem] flex items-center justify-center text-purple-500 dark:text-purple-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">bubble_chart</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-purple-400 font-hand font-bold text-sm uppercase tracking-widest">Sensory</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Sensory Processing</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Helping children understand and navigate their sensory world so they can engage more fully in daily life. We build a personalized sensory profile for each child — exploring how they receive and respond to touch, movement, sound, sight, taste, and proprioception — and create a supportive plan from there.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Sensory modulation and regulation support</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Vestibular and proprioceptive processing</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Sensory diet planning for home and school</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Over- and under-responsivity to sensory input</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Fine Motor Skills -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-yellow-100 dark:bg-yellow-900/40 rounded-[3rem_2rem_3rem_2rem] flex items-center justify-center text-yellow-600 dark:text-yellow-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">brush</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-yellow-500 font-hand font-bold text-sm uppercase tracking-widest">Motor Development</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Fine Motor Skills</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Developing precise hand and finger movements through meaningful, play-based exploration. Fine motor skills are embedded in everything from drawing and writing to self-care tasks — we develop them in the context of activities that actually matter to the child, not drills in isolation.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Pencil grasp and pre-writing skills</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Hand strength and dexterity</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Scissor skills and manipulative tasks</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Bilateral hand coordination</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Activities of Daily Living -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-red-100 dark:bg-red-900/40 rounded-[2rem_3rem_2rem_3rem] flex items-center justify-center text-red-500 dark:text-red-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">self_care</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-red-400 font-hand font-bold text-sm uppercase tracking-widest">Daily Living</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Activities of Daily Living</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Supporting children in engaging with daily routines — dressing, grooming, and self-care — within warm, relationship-centered interactions that foster a sense of self. ADL skills are more than checklists; they're opportunities for independence, confidence, and connection.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Dressing and fastening (buttons, zippers, laces)</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Grooming and hygiene routines</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Mealtime participation and independence</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Transitioning between routines with ease</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Praxis -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-teal-100 dark:bg-teal-900/40 rounded-[3rem_2rem_3rem_2rem] flex items-center justify-center text-teal-600 dark:text-teal-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">directions_run</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-teal-500 font-hand font-bold text-sm uppercase tracking-widest">Motor Planning</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Praxis</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Supporting motor planning and the ability to ideate, sequence, and execute new and unfamiliar movements. Praxis is a core concept in DIR/Floortime — the capacity to interact successfully with the physical environment depends on the brain's ability to plan, organize, and carry out purposeful actions.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Ideation — forming ideas for what to do</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Motor sequencing and planning</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Dyspraxia support through play-based challenges</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Navigating new environments and physical tasks</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Executive Function -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-indigo-100 dark:bg-indigo-900/40 rounded-[2rem_3rem_2rem_3rem] flex items-center justify-center text-indigo-500 dark:text-indigo-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">school</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-indigo-400 font-hand font-bold text-sm uppercase tracking-widest">Cognition</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Executive Function</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Fostering planning, flexible thinking, and shared problem solving through play and meaningful interactions. In DIR/Floortime, executive function emerges from secure, engaged relationships — we build these capacities through rich, interactive play rather than structured drills.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Shared social problem solving</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Flexible thinking and adapting to change</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Attention and task initiation within meaningful contexts</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Self-direction and self-regulation</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Visual Motor Skills -->
+<div class="flex flex-col lg:flex-row items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-orange-100 dark:bg-orange-900/40 rounded-[3rem_2rem_3rem_2rem] flex items-center justify-center text-orange-500 dark:text-orange-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">visibility</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-orange-400 font-hand font-bold text-sm uppercase tracking-widest">Visual Integration</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Visual Motor Skills</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Developing the integration of visual input with motor output — hand-eye coordination that supports drawing, writing, cutting, and many daily tasks. Visual motor integration is a critical bridge between perception and action, and we develop it through purposeful, engaging activities.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Hand-eye coordination for functional tasks</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Visual perception and spatial reasoning</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Copying, tracing, and drawing skills</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Integration with motor planning sequences</li>
+</ul>
+</div>
+</div>
+<hr class="border-primary/10 dark:border-gray-700"/>
+
+<!-- Motor Coordination -->
+<div class="flex flex-col lg:flex-row-reverse items-center gap-12 group">
+<div class="w-full lg:w-1/3 flex justify-center">
+<div class="w-40 h-40 bg-green-100 dark:bg-green-900/40 rounded-[2rem_3rem_2rem_3rem] flex items-center justify-center text-green-600 dark:text-green-300 shadow-inner group-hover:scale-105 transition-transform duration-300">
+<span class="material-symbols-outlined text-7xl">sports_gymnastics</span>
+</div>
+</div>
+<div class="w-full lg:w-2/3 space-y-4">
+<span class="text-green-500 font-hand font-bold text-sm uppercase tracking-widest">Coordination</span>
+<h2 class="font-display text-3xl lg:text-4xl text-gray-800 dark:text-white">Motor Coordination</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">Enhancing bilateral coordination, balance, and body awareness for confident, joyful movement. Motor coordination is about more than physical skill — it's about a child feeling at home in their own body, which unlocks confidence and participation in play, school, and life.</p>
+<ul class="space-y-2 pt-2">
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Bilateral coordination and crossing midline</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Core strength and postural stability</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Balance and body awareness</li>
+<li class="flex items-start gap-3 text-gray-600 dark:text-gray-300 text-sm"><span class="material-icons-round text-primary text-base mt-0.5">check</span> Playground and sports participation</li>
+</ul>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- CTA -->
+<section class="py-24 bg-secondary dark:bg-secondary/90 text-white relative overflow-hidden">
+<div class="absolute top-10 right-20 w-32 h-32 bg-white/10 rounded-full blur-2xl pointer-events-none animate-pulse"></div>
+<div class="absolute bottom-10 left-20 w-48 h-48 bg-primary/30 rounded-full blur-2xl pointer-events-none animate-pulse" style="animation-delay: 1s"></div>
+<div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+<h2 class="font-display text-4xl md:text-5xl font-normal mb-8">Not sure where to start?</h2>
+<p class="text-xl opacity-95 mb-12 max-w-2xl mx-auto font-light">
+    We'll help you figure it out. Book a free 15-minute discovery call and we'll talk through your child's needs together.
+</p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<a class="bg-white text-secondary font-bold px-10 py-5 rounded-[2rem_1rem_2rem_1rem] shadow-xl hover:bg-gray-50 transition transform hover:-translate-y-1 text-lg flex items-center justify-center gap-2" href="book.html">
+    Book Discovery Call
+    <span class="material-symbols-outlined">calendar_add_on</span>
+</a>
+<a class="bg-transparent border-2 border-white text-white font-bold px-10 py-5 rounded-[1rem_2rem_1rem_2rem] hover:bg-white/10 transition flex items-center justify-center gap-2" href="#">
+    Contact Us
+    <span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 dark:bg-black text-gray-300 py-16 font-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-8 h-8 flex items-center justify-center bg-primary/20 rounded-full">
+<span class="material-symbols-outlined text-primary text-xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-white">Wondering Ways</span>
+</div>
+<p class="text-gray-400 max-w-sm leading-relaxed">
+    Empowering children and families through compassionate, playful, and evidence-based occupational therapy.
+</p>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="hover:text-primary transition flex items-center gap-2" href="about.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> About Us</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="services.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Services</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="insurance.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Insurance &amp; Fees</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="camps.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Camps</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="resources.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Resources</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Contact</h4>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-icons-round text-primary text-lg">email</span>
+hello@wonderingwaystherapy.com
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+<p>© 2023 Wondering Ways Therapy Co. All rights reserved.</p>
+<div class="flex space-x-8 mt-4 md:mt-0">
+<a class="hover:text-white transition" href="#">Privacy Policy</a>
+<a class="hover:text-white transition" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
