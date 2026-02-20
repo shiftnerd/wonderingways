@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Book a Call — Wondering Ways Therapy Co.</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito+Sans:wght@300;400;600;700&family=Comfortaa:wght@300;400;600;700&family=Sniglet:wght@400;800&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    primary: "#7C9A84",
+                    secondary: "#E29578",
+                    "background-light": "#FDFBF7",
+                    "background-dark": "#1F2937",
+                    "surface-light": "#FFFFFF",
+                    "surface-dark": "#374151",
+                    "text-light": "#4A4A4A",
+                    "text-dark": "#F3F4F6",
+                },
+                fontFamily: {
+                    display: ["Sniglet", "serif"],
+                    body: ["Nunito Sans", "sans-serif"],
+                    hand: ["Comfortaa", "cursive"],
+                },
+                borderRadius: {
+                    DEFAULT: "1rem",
+                    'xl': '1.5rem',
+                    '2xl': '2rem',
+                    'blob': '60% 40% 30% 70% / 60% 30% 70% 40%',
+                    'blob-2': '30% 70% 70% 30% / 30% 30% 70% 70%',
+                    'blob-card': '2rem 1.5rem 2.5rem 1rem',
+                },
+            },
+        },
+    };
+</script>
+<style type="text/tailwindcss">
+    .blob-bg {
+        border-radius: 44% 56% 49% 51% / 63% 38% 62% 37%;
+    }
+    .blob-card-shape {
+        border-radius: 20px 30px 25px 15px;
+    }
+    @keyframes float {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+    }
+    .float { animation: float 4s ease-in-out infinite; }
+
+    /* TidyCal embed sizing */
+    #tidycal-embed {
+        min-height: 600px;
+    }
+</style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body transition-colors duration-300">
+
+<!-- NAV -->
+<nav class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-primary/20 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-24">
+<div class="flex-shrink-0 flex items-center gap-3">
+<a href="index.html" class="flex items-center gap-3">
+<div class="relative w-10 h-10 flex items-center justify-center bg-primary/20 rounded-full blob-bg">
+<span class="material-symbols-outlined text-primary text-2xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-gray-800 dark:text-white tracking-wide">
+    Wondering Ways <span class="text-primary block text-sm font-hand -mt-1">Therapy Co.</span>
+</span>
+</a>
+</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="about.html">
+    About Us
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="services.html">
+    Services
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="resources.html">
+    Resources
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="camps.html">
+    Camps
+    <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="bg-primary hover:bg-primary/90 text-white px-7 py-3 rounded-[2rem_1rem_2rem_1rem] font-bold shadow-lg shadow-primary/20 transition transform hover:-translate-y-0.5 flex items-center gap-2" href="portal.html">
+    Client Portal
+    <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="md:hidden flex items-center">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary focus:outline-none">
+<span class="material-icons-round text-3xl">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+
+<!-- HERO -->
+<section class="relative overflow-hidden pt-16 pb-12 lg:pt-20 lg:pb-16">
+<div class="absolute top-0 right-0 w-[600px] h-[600px] bg-primary/10 blob-bg -translate-y-1/2 translate-x-1/3 blur-3xl -z-10"></div>
+<div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-secondary/10 blob-bg translate-y-1/3 -translate-x-1/4 blur-3xl -z-10"></div>
+<div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative">
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-white/10 shadow-sm border border-secondary/20 text-secondary font-bold text-sm tracking-wide uppercase mb-6">
+<span class="material-icons-round text-base">calendar_month</span>
+Free · 15 Minutes · No Commitment
+</div>
+<h1 class="font-display text-5xl lg:text-6xl font-normal leading-tight text-gray-800 dark:text-white mb-6">
+    Book a Discovery<br/>
+    <span class="text-primary relative inline-block mt-2">
+        Call
+        <svg class="absolute w-full h-4 -bottom-2 left-0 text-secondary opacity-60" fill="none" viewBox="0 0 200 9" xmlns="http://www.w3.org/2000/svg"><path d="M2.00025 6.99997C25.7509 2.66663 83.0858 -2.47953 198.001 3.49997" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path></svg>
+    </span>
+</h1>
+<p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-2xl mx-auto font-body mt-6">
+    A relaxed, no-pressure conversation to hear about your child, answer your questions, and see if Wondering Ways is the right fit for your family.
+</p>
+</div>
+</section>
+
+<!-- WHAT TO EXPECT + EMBED -->
+<section class="py-8 pb-24 bg-background-light dark:bg-background-dark">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex flex-col lg:flex-row gap-12 items-start">
+
+    <!-- Left: What to expect -->
+    <div class="w-full lg:w-80 flex-shrink-0 space-y-6">
+
+        <div class="bg-white dark:bg-surface-dark blob-card-shape p-6 shadow-sm border border-primary/10 space-y-5">
+            <h2 class="font-display text-2xl text-gray-800 dark:text-white">What to expect</h2>
+
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 flex-shrink-0 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+                    <span class="material-symbols-outlined text-xl">schedule</span>
+                </div>
+                <div>
+                    <p class="font-bold text-gray-800 dark:text-white text-sm">15 minutes</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs leading-relaxed">A short, focused conversation — no fluff.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 flex-shrink-0 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+                    <span class="material-symbols-outlined text-xl">phone</span>
+                </div>
+                <div>
+                    <p class="font-bold text-gray-800 dark:text-white text-sm">Phone or video</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs leading-relaxed">We'll send you a link — join however works best for you.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 flex-shrink-0 bg-primary/10 rounded-xl flex items-center justify-center text-primary">
+                    <span class="material-symbols-outlined text-xl">chat</span>
+                </div>
+                <div>
+                    <p class="font-bold text-gray-800 dark:text-white text-sm">Tell us about your child</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs leading-relaxed">We'll listen, ask a few questions, and share how we might help.</p>
+                </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+                <div class="w-10 h-10 flex-shrink-0 bg-secondary/10 rounded-xl flex items-center justify-center text-secondary">
+                    <span class="material-symbols-outlined text-xl">favorite</span>
+                </div>
+                <div>
+                    <p class="font-bold text-gray-800 dark:text-white text-sm">Zero pressure</p>
+                    <p class="text-gray-500 dark:text-gray-400 text-xs leading-relaxed">This call is just a conversation — no commitment required.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-primary/5 dark:bg-primary/10 rounded-2xl p-5 space-y-2">
+            <p class="text-xs font-bold text-primary uppercase tracking-widest font-hand">Prefer email?</p>
+            <p class="text-sm text-gray-600 dark:text-gray-300 leading-relaxed">We're happy to connect over email too.</p>
+            <a href="mailto:hello@wonderingwaystherapy.com" class="inline-flex items-center gap-2 text-secondary font-bold text-sm hover:underline font-hand mt-1">
+                <span class="material-symbols-outlined text-sm">mail</span>
+                hello@wonderingwaystherapy.com
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Right: TidyCal embed -->
+    <div class="flex-1 bg-white dark:bg-surface-dark blob-card-shape shadow-sm border border-primary/10 overflow-hidden">
+        <!-- TidyCal embed placeholder -->
+        <!-- To activate: replace YOUR-TIDYCAL-LINK below with your actual TidyCal username/event path -->
+        <!-- e.g. https://tidycal.com/yourname/discovery-call -->
+        <div id="tidycal-embed" class="w-full p-8 flex flex-col items-center justify-center text-center gap-6 min-h-[500px]">
+            <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center text-primary float">
+                <span class="material-symbols-outlined text-4xl">calendar_add_on</span>
+            </div>
+            <div>
+                <h3 class="font-display text-2xl text-gray-800 dark:text-white mb-2">Calendar Coming Soon</h3>
+                <p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed max-w-sm">
+                    Our online booking calendar is being set up. In the meantime, reach out by email and we'll find a time that works.
+                </p>
+            </div>
+            <a href="mailto:hello@wonderingwaystherapy.com" class="bg-primary hover:bg-primary/90 text-white font-bold px-8 py-4 rounded-[2rem_1rem_2rem_1rem] shadow-lg transition transform hover:-translate-y-0.5 flex items-center gap-2">
+                <span class="material-symbols-outlined text-sm">mail</span>
+                Email to Schedule
+            </a>
+            <p class="text-xs text-gray-400 dark:text-gray-500 font-hand">We typically respond within one business day.</p>
+        </div>
+        <!-- Uncomment and replace when TidyCal is ready:
+        <script src="https://asset-tidycal.b-cdn.net/js/embed.js"></script>
+        <div class="tidycal-embed" data-path="YOUR-TIDYCAL-LINK"></div>
+        -->
+    </div>
+
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gray-800 dark:bg-black text-gray-300 py-16 font-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-8 h-8 flex items-center justify-center bg-primary/20 rounded-full">
+<span class="material-symbols-outlined text-primary text-xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-white">Wondering Ways</span>
+</div>
+<p class="text-gray-400 max-w-sm leading-relaxed">
+    Empowering children and families through compassionate, playful, and evidence-based occupational therapy.
+</p>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="hover:text-primary transition flex items-center gap-2" href="about.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> About Us</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="services.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Services</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="insurance.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Insurance &amp; Fees</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="camps.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Camps</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="resources.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Resources</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Contact</h4>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-icons-round text-primary text-lg">email</span>
+hello@wonderingwaystherapy.com
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+<p>© 2023 Wondering Ways Therapy Co. All rights reserved.</p>
+<div class="flex space-x-8 mt-4 md:mt-0">
+<a class="hover:text-white transition" href="#">Privacy Policy</a>
+<a class="hover:text-white transition" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
