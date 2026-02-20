@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Wondering Ways Homepage</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&amp;family=Nunito+Sans:wght@300;400;600;700&amp;family=Comfortaa:wght@300;400;600;700&amp;family=Sniglet:wght@400;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#7C9A84", // Muted Sage Green
+                        secondary: "#E29578", // Soft Terracotta
+                        "background-light": "#FDFBF7", // Warm White
+                        "background-dark": "#1F2937", // Dark Gray
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#374151",
+                        "text-light": "#4A4A4A",
+                        "text-dark": "#F3F4F6",
+                    },
+                    fontFamily: {
+                        display: ["Sniglet", "serif"], // Soft rounded playful font
+                        body: ["Nunito Sans", "sans-serif"],
+                        hand: ["Comfortaa", "cursive"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "1rem",
+                        'xl': '1.5rem',
+                        '2xl': '2rem',
+                        'blob': '60% 40% 30% 70% / 60% 30% 70% 40%',
+                        'blob-2': '30% 70% 70% 30% / 30% 30% 70% 70%',
+                        'blob-card': '2rem 1.5rem 2.5rem 1rem',
+                    },
+                },
+            },
+        };
+    </script>
+<style type="text/tailwindcss">
+        .blob-bg {
+            border-radius: 44% 56% 49% 51% / 63% 38% 62% 37%;
+        }
+        .blob-card-shape {
+            border-radius: 20px 30px 25px 15px;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark font-body transition-colors duration-300">
+<nav class="sticky top-0 z-50 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-primary/20 dark:border-gray-700">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex justify-between items-center h-24">
+<div class="flex-shrink-0 flex items-center gap-3">
+<a href="index.html" class="flex items-center gap-3">
+<div class="relative w-10 h-10 flex items-center justify-center bg-primary/20 rounded-full blob-bg">
+<span class="material-symbols-outlined text-primary text-2xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-gray-800 dark:text-white tracking-wide">
+                        Wondering Ways <span class="text-primary block text-sm font-hand -mt-1">Therapy Co.</span>
+</span>
+</a>
+</div>
+<div class="hidden md:flex space-x-8 items-center">
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="about.html">
+                        About Us
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="services.html">
+                        Services
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+<a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="resources.html">
+                        Resources
+                        <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+</a>
+                        <a class="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary font-medium transition relative group" href="camps.html">
+                            Camps
+                            <span class="absolute -bottom-1 left-0 w-0 h-0.5 bg-secondary transition-all group-hover:w-full rounded-full"></span>
+                        </a>
+<a class="bg-primary hover:bg-primary/90 text-white px-7 py-3 rounded-[2rem_1rem_2rem_1rem] font-bold shadow-lg shadow-primary/20 transition transform hover:-translate-y-0.5 flex items-center gap-2" href="portal.html">
+                        Client Portal
+                        <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="md:hidden flex items-center">
+<button class="text-gray-600 dark:text-gray-300 hover:text-primary focus:outline-none">
+<span class="material-icons-round text-3xl">menu</span>
+</button>
+</div>
+</div>
+</div>
+</nav>
+<section class="relative overflow-hidden pt-12 pb-20 lg:pt-28 lg:pb-32">
+<div class="absolute top-0 right-0 w-[800px] h-[800px] bg-primary/10 blob-bg -translate-y-1/2 translate-x-1/3 blur-3xl -z-10"></div>
+<div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-secondary/10 blob-bg translate-y-1/3 -translate-x-1/4 blur-3xl -z-10"></div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="order-2 lg:order-1 space-y-8 relative">
+<span class="material-symbols-outlined absolute -top-8 -left-8 text-secondary/40 text-4xl rotate-12">star</span>
+<div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white dark:bg-white/10 shadow-sm border border-secondary/20 text-secondary font-bold text-sm tracking-wide uppercase">
+<span class="material-icons-round text-base">favorite</span>
+                        Family-Centered Care
+                    </div>
+<h1 class="font-display text-5xl lg:text-7xl font-normal leading-tight text-gray-800 dark:text-white relative z-10">
+                        Where curiosity <br/>
+<span class="text-primary relative inline-block mt-2">
+                             leads the way
+                            <svg class="absolute w-full h-4 -bottom-2 left-0 text-secondary opacity-60" fill="none" viewBox="0 0 200 9" xmlns="http://www.w3.org/2000/svg"><path d="M2.00025 6.99997C25.7509 2.66663 83.0858 -2.47953 198.001 3.49997" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path></svg>
+</span>
+</h1>
+<p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed max-w-lg font-body">
+                        Compassionate, evidence-based occupational therapy designed to help children build confidence, independence, and joy in their daily lives.
+                    </p>
+<div class="flex flex-col sm:flex-row gap-5 pt-4">
+<a class="bg-secondary hover:bg-secondary/90 text-white text-center px-8 py-4 rounded-[2rem_1rem_2rem_1rem] font-bold shadow-lg shadow-secondary/20 transition transform hover:-translate-y-1 text-lg flex items-center justify-center gap-2" href="book.html">
+                            Schedule a Consultation
+                            <span class="material-symbols-outlined text-sm">calendar_month</span>
+</a>
+<a class="flex items-center justify-center gap-2 text-gray-600 dark:text-gray-300 font-bold px-8 py-4 hover:text-primary transition group" href="#">
+<div class="bg-white p-2 rounded-full shadow-md group-hover:scale-110 transition">
+<span class="material-icons-round text-primary text-xl">play_arrow</span>
+</div>
+                            Watch Our Story
+                        </a>
+</div>
+<span class="material-symbols-outlined absolute bottom-0 right-10 text-primary/40 text-5xl -rotate-12">potted_plant</span>
+</div>
+<div class="order-1 lg:order-2 relative group">
+<div class="absolute -top-12 -right-12 w-full h-full bg-primary/20 blob-bg scale-110 group-hover:rotate-6 transition-transform duration-700"></div>
+<div class="relative rounded-[3rem_2rem_4rem_2rem] overflow-hidden shadow-2xl border-4 border-white dark:border-gray-800 transform rotate-2 hover:rotate-0 transition duration-500 bg-white">
+<img alt="Therapist helping a child stack colorful blocks" class="w-full h-full object-cover aspect-[4/3]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB2Lo3BQil3w5pB4ElH6uStvJO-uE_UFeH3jkEeUsbmKMUsONM9GY2H3F1eupeciZZE1RncBe1Q2VP77k0HAAHt93uTudBW-JIB-RasBS615afK0gZoyJ8-74nBvGoewu8yCoKWpzzRwu2lnWWeDyc_bMRkTb4iwJkPfcjsGpVxf_O42-A_yPGHGeOVceDbEpY4Nq3yZgdvm6GOsVONJoVK9fTVnHjoI5iGW08SX0dV9UKMsJ11pObuBbwn2tRVZD8VPxnSnOcDYdE"/>
+</div>
+<div class="absolute -bottom-8 -left-4 bg-white dark:bg-surface-dark p-5 rounded-[2rem_1rem_2rem_2rem] shadow-xl flex items-center gap-4 animate-bounce" style="animation-duration: 4s;">
+<div class="bg-green-100 dark:bg-green-900/50 p-3 rounded-full text-green-600 dark:text-green-400">
+<span class="material-symbols-outlined text-2xl">verified</span>
+</div>
+<div>
+<p class="text-xs text-gray-400 dark:text-gray-500 font-bold uppercase tracking-wider">Certified</p>
+<p class="font-display text-lg text-gray-800 dark:text-white">Pediatric Specialists</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white/60 dark:bg-surface-dark/30 backdrop-blur-sm relative overflow-hidden">
+<svg class="absolute top-10 left-10 w-32 h-32 text-secondary/10 -rotate-12" fill="currentColor" viewBox="0 0 100 100">
+<path d="M50 0 C22.4 0 0 22.4 0 50 C0 77.6 22.4 100 50 100 C77.6 100 100 77.6 100 50 C100 22.4 77.6 0 50 0 Z M50 80 C33.4 80 20 66.6 20 50 C20 33.4 33.4 20 50 20 C66.6 20 80 33.4 80 50 C80 66.6 66.6 80 50 80 Z"></path>
+</svg>
+<div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+<span class="text-primary font-bold tracking-widest uppercase text-xs mb-2 block font-hand">Our Philosophy</span>
+<h2 class="font-display text-3xl md:text-5xl font-normal text-gray-800 dark:text-white mb-8">What is Occupational Therapy?</h2>
+<p class="text-xl text-gray-600 dark:text-gray-300 leading-relaxed mb-16 font-light">
+                For a child, their "occupation" is playing, learning, and growing. When challenges arise in these areas—whether sensory, motor, or emotional—OT steps in to bridge the gap. We don't just treat symptoms; we empower the whole child and support the entire family.
+            </p>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+<div class="flex flex-col items-center group">
+<div class="w-20 h-20 bg-blue-50 dark:bg-blue-900/20 rounded-[2rem_1.5rem_2rem_1rem] flex items-center justify-center mb-6 text-blue-400 transition-transform group-hover:scale-110 group-hover:rotate-3 shadow-inner">
+<span class="material-symbols-outlined text-4xl">psychology</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Understand</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed px-4">We assess your child's unique strengths and challenges.</p>
+</div>
+<div class="flex flex-col items-center group">
+<div class="w-20 h-20 bg-secondary/10 dark:bg-secondary/20 rounded-[1.5rem_2rem_1rem_2rem] flex items-center justify-center mb-6 text-secondary transition-transform group-hover:scale-110 group-hover:-rotate-3 shadow-inner">
+<span class="material-symbols-outlined text-4xl">handshake</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Collaborate</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed px-4">We partner with parents and teachers for consistent support.</p>
+</div>
+<div class="flex flex-col items-center group">
+<div class="w-20 h-20 bg-primary/10 dark:bg-primary/20 rounded-[2rem_1rem_2rem_1.5rem] flex items-center justify-center mb-6 text-primary transition-transform group-hover:scale-110 group-hover:rotate-3 shadow-inner">
+<span class="material-symbols-outlined text-4xl">celebration</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Thrive</h3>
+<p class="text-gray-500 dark:text-gray-400 text-sm leading-relaxed px-4">We celebrate every milestone, big or small.</p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-background-light dark:bg-background-dark relative">
+<div class="absolute top-0 left-0 w-full h-full overflow-hidden opacity-30 pointer-events-none">
+<svg class="absolute top-20 right-20 w-48 text-secondary/10 animate-pulse" style="animation-duration: 4s;" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M44.7,-76.4C58.9,-69.2,71.8,-59.1,79.6,-46.3C87.4,-33.5,90.1,-18,88.4,-3.3C86.6,11.4,80.4,25.3,71.4,37.1C62.4,48.9,50.6,58.6,37.8,65.3C25,72,11.2,75.7,-1.8,78.8C-14.8,81.9,-30.7,84.4,-44.6,78.4C-58.5,72.4,-70.4,57.9,-78.6,41.9C-86.8,25.9,-91.3,8.4,-88.4,-7.8C-85.5,-24,-75.2,-38.9,-63.4,-49.6C-51.6,-60.3,-38.3,-66.8,-24.8,-69.7C-11.3,-72.6,2.4,-71.9,15.5,-73.4L44.7,-76.4Z" fill="currentColor" transform="translate(100 100)"></path>
+</svg>
+</div>
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="text-center mb-20">
+<h2 class="font-display text-4xl lg:text-5xl font-normal text-gray-800 dark:text-white relative inline-block">
+                    Areas of Focus
+                    <span class="material-symbols-outlined absolute -top-4 -right-8 text-primary/40 text-3xl rotate-12">wb_sunny</span>
+</h2>
+<p class="mt-4 text-xl text-gray-600 dark:text-gray-300 font-light">Targeted therapies designed for developmental growth.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-blue-50 dark:bg-blue-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/40 rounded-full flex items-center justify-center mb-6 text-blue-500 dark:text-blue-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">sentiment_satisfied</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Social Emotional Growth</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Nurturing warm engagement and co-regulation so children build the emotional foundations for connection, communication, and joyful relationships.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-purple-50 dark:bg-purple-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-purple-100 dark:bg-purple-900/40 rounded-full flex items-center justify-center mb-6 text-purple-500 dark:text-purple-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">bubble_chart</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Sensory Processing</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Helping children regulate their responses to sensory input for better focus and calm.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-yellow-50 dark:bg-yellow-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-yellow-100 dark:bg-yellow-900/40 rounded-full flex items-center justify-center mb-6 text-yellow-600 dark:text-yellow-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">brush</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Fine Motor Skills</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Developing precise hand and finger movements through meaningful, play-based exploration that builds dexterity in purposeful, everyday contexts.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-red-50 dark:bg-red-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-red-100 dark:bg-red-900/40 rounded-full flex items-center justify-center mb-6 text-red-500 dark:text-red-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">self_care</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Activities of Daily Living</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Supporting children in engaging with daily routines—dressing, grooming, and self-care—within warm, relationship-centered interactions that foster a sense of self.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-teal-50 dark:bg-teal-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-teal-100 dark:bg-teal-900/40 rounded-full flex items-center justify-center mb-6 text-teal-600 dark:text-teal-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">directions_run</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Praxis</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Supporting motor planning and the ability to execute new and complex movement sequences.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-indigo-50 dark:bg-indigo-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-indigo-100 dark:bg-indigo-900/40 rounded-full flex items-center justify-center mb-6 text-indigo-500 dark:text-indigo-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">school</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Executive Function</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Fostering planning, flexible thinking, and shared problem solving through play and meaningful interactions that grow a child's capacity for self-direction.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-orange-50 dark:bg-orange-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-orange-100 dark:bg-orange-900/40 rounded-full flex items-center justify-center mb-6 text-orange-500 dark:text-orange-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">visibility</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Visual Motor Skills</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Developing hand-eye coordination to support drawing, writing, cutting, and daily tasks.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+<div class="group bg-white dark:bg-surface-dark blob-card-shape p-8 shadow-sm hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-secondary/30 relative overflow-hidden">
+<div class="absolute top-0 right-0 w-24 h-24 bg-green-50 dark:bg-green-900/20 rounded-bl-[4rem] -mr-4 -mt-4 transition-transform group-hover:scale-110"></div>
+<div class="w-16 h-16 bg-green-100 dark:bg-green-900/40 rounded-full flex items-center justify-center mb-6 text-green-600 dark:text-green-300 relative z-10">
+<span class="material-symbols-outlined text-3xl">sports_gymnastics</span>
+</div>
+<h3 class="font-display text-2xl mb-3 dark:text-white">Motor Coordination</h3>
+<p class="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">Enhancing bilateral coordination, balance, and body awareness for confident movement.</p>
+<a class="inline-flex items-center text-secondary font-bold text-sm hover:underline font-hand" href="#">
+                        Learn more <span class="material-icons-round text-sm ml-1">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-primary/5 dark:bg-primary/5 relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+<div class="flex flex-col lg:flex-row items-center gap-16">
+<div class="w-full lg:w-1/2">
+<div class="relative">
+<div class="absolute inset-0 bg-secondary rounded-[30%_70%_70%_30%_/_30%_30%_70%_70%] rotate-3 translate-x-2 translate-y-2 opacity-30 w-full h-full"></div>
+<img alt="Smiling occupational therapist Kaylen" class="relative rounded-[2rem_4rem_2rem_4rem] w-full max-h-[500px] shadow-lg object-cover object-top border-4 border-white" src="https://i.imgur.com/Mg3zJGX.jpeg"/>
+<span class="material-symbols-outlined absolute -bottom-8 -right-8 text-primary/40 text-6xl rotate-12">spa</span>
+</div>
+</div>
+<div class="w-full lg:w-1/2 space-y-8">
+<h2 class="font-display text-4xl font-normal text-gray-800 dark:text-white">Meet Kaylen &amp; The Team</h2>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
+                        Hi, I'm Kaylen! I founded Wondering Ways with a simple mission: to create a space where therapy feels like play. With over 15 years of experience in pediatric settings, I believe that the best progress happens when a child feels safe, understood, and happy.
+                    </p>
+<p class="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
+                        Our team of certified specialists is dedicated to partnering with your family to navigate the developmental journey together.
+                    </p>
+<ul class="space-y-4 pt-4">
+<li class="flex items-center gap-4 text-gray-700 dark:text-gray-200 font-medium bg-white dark:bg-white/5 p-3 rounded-2xl shadow-sm border border-primary/10">
+<span class="material-icons-round text-primary text-xl">check_circle</span>
+                            Master's Level Clinicians
+                        </li>
+<li class="flex items-center gap-4 text-gray-700 dark:text-gray-200 font-medium bg-white dark:bg-white/5 p-3 rounded-2xl shadow-sm border border-primary/10">
+<span class="material-icons-round text-primary text-xl">check_circle</span>
+                            Sensory Integration Certified
+                        </li>
+</ul>
+<div class="pt-8">
+<a class="bg-primary hover:bg-opacity-90 text-white px-10 py-4 rounded-[1rem_2rem_1rem_2rem] font-bold shadow-lg transition inline-flex items-center gap-2" href="about.html">
+                            More About Us
+                             <span class="material-symbols-outlined text-sm">face</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-white dark:bg-background-dark">
+<div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="text-center mb-16">
+<span class="text-secondary font-hand font-bold text-lg mb-2 block">Kind words</span>
+<h2 class="font-display text-4xl lg:text-5xl font-normal text-gray-800 dark:text-white">Happy Families</h2>
+<p class="mt-4 text-gray-600 dark:text-gray-300">Hear from parents who have seen their children bloom.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+<div class="bg-background-light dark:bg-surface-dark p-10 rounded-[2rem_1rem_2rem_1rem] border border-secondary/10 shadow-sm relative group hover:-translate-y-1 transition duration-300">
+<span class="material-icons-round text-primary/10 text-8xl absolute top-4 right-4 rotate-12 group-hover:rotate-0 transition-transform">format_quote</span>
+<p class="text-gray-600 dark:text-gray-300 text-lg italic mb-8 relative z-10 font-light leading-relaxed">
+                        "We've seen such a huge difference in Leo's confidence since starting OT. He used to be terrified of loud noises, but now he has strategies to cope. The therapists here are absolute angels."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 bg-secondary rounded-full flex items-center justify-center text-white font-bold text-2xl font-display shadow-md">M</div>
+<div>
+<p class="font-bold text-gray-800 dark:text-white text-lg">Maria G.</p>
+<p class="text-sm text-gray-500 dark:text-gray-400 font-hand">Mom to Leo (Age 5)</p>
+</div>
+</div>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-10 rounded-[1rem_2rem_1rem_2rem] border border-secondary/10 shadow-sm relative group hover:-translate-y-1 transition duration-300">
+<span class="material-icons-round text-primary/10 text-8xl absolute top-4 right-4 rotate-12 group-hover:rotate-0 transition-transform">format_quote</span>
+<p class="text-gray-600 dark:text-gray-300 text-lg italic mb-8 relative z-10 font-light leading-relaxed">
+                        "The approach here is so warm and welcoming. My daughter actually looks forward to her sessions! It doesn't feel like a doctor's office at all. Highly recommend Wondering Ways."
+                    </p>
+<div class="flex items-center gap-4">
+<div class="w-14 h-14 bg-primary rounded-full flex items-center justify-center text-white font-bold text-2xl font-display shadow-md">D</div>
+<div>
+<p class="font-bold text-gray-800 dark:text-white text-lg">David P.</p>
+<p class="text-sm text-gray-500 dark:text-gray-400 font-hand">Dad to Sophie (Age 8)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-24 bg-secondary dark:bg-secondary/90 text-white relative overflow-hidden">
+<div class="absolute top-10 right-20 w-32 h-32 bg-white/10 rounded-full blur-2xl pointer-events-none animate-pulse"></div>
+<div class="absolute bottom-10 left-20 w-48 h-48 bg-primary/30 rounded-full blur-2xl pointer-events-none animate-pulse" style="animation-delay: 1s"></div>
+<div class="max-w-4xl mx-auto px-4 text-center relative z-10">
+<h2 class="font-display text-4xl md:text-6xl font-normal mb-8">Ready to start the journey?</h2>
+<p class="text-xl opacity-95 mb-12 max-w-2xl mx-auto font-light">
+                Schedule a free 15-minute discovery call to see if Wondering Ways is the right fit for your family.
+            </p>
+<div class="flex flex-col sm:flex-row justify-center gap-6">
+<a class="bg-white text-secondary font-bold px-10 py-5 rounded-[2rem_1rem_2rem_1rem] shadow-xl hover:bg-gray-50 transition transform hover:-translate-y-1 text-lg flex items-center justify-center gap-2" href="book.html">
+                    Book Discovery Call
+                    <span class="material-symbols-outlined">calendar_add_on</span>
+</a>
+<a class="bg-transparent border-2 border-white text-white font-bold px-10 py-5 rounded-[1rem_2rem_1rem_2rem] hover:bg-white/10 transition flex items-center justify-center gap-2" href="#">
+                    Contact Us
+                    <span class="material-symbols-outlined">mail</span>
+</a>
+</div>
+</div>
+</section>
+<footer class="bg-gray-800 dark:bg-black text-gray-300 py-16 font-light">
+<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+<div class="col-span-1 md:col-span-2">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-8 h-8 flex items-center justify-center bg-primary/20 rounded-full">
+<span class="material-symbols-outlined text-primary text-xl">eco</span>
+</div>
+<span class="font-display font-bold text-2xl text-white">Wondering Ways</span>
+</div>
+<p class="text-gray-400 max-w-sm leading-relaxed">
+                        Empowering children and families through compassionate, playful, and evidence-based occupational therapy.
+                    </p>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Quick Links</h4>
+<ul class="space-y-3">
+<li><a class="hover:text-primary transition flex items-center gap-2" href="about.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> About Us</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="services.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Services</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="insurance.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Insurance &amp; Fees</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="camps.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Camps</a></li>
+<li><a class="hover:text-primary transition flex items-center gap-2" href="resources.html"><span class="w-1.5 h-1.5 bg-primary rounded-full"></span> Resources</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-white mb-6 uppercase tracking-wider text-sm font-display">Contact</h4>
+<ul class="space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-icons-round text-primary text-lg">email</span>
+                            hello@wonderingwaystherapy.com
+                        </li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+<p>© 2023 Wondering Ways Therapy Co. All rights reserved.</p>
+<div class="flex space-x-8 mt-4 md:mt-0">
+<a class="hover:text-white transition" href="#">Privacy Policy</a>
+<a class="hover:text-white transition" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+</footer>
+
+</body></html>
